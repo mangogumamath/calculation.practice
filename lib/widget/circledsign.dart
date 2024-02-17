@@ -7,7 +7,7 @@ class CircledSign extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(margin: const EdgeInsets.fromLTRB(0,0,0,5),
+    return Container(
       width: 30.0,
       height: 40.0,
       decoration: BoxDecoration(
@@ -15,13 +15,12 @@ class CircledSign extends StatelessWidget {
         shape: BoxShape.circle,
       ),
       child: Center(
-        child: Text(
-                text,
-                style: const TextStyle(
-        fontSize: 40.0,
-                ),
-              ),
-      ),
+          child: Text(
+        text,
+        style: const TextStyle(
+          fontSize: 40.0,
+        ),
+      )),
     );
   }
 }
