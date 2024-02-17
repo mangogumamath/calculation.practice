@@ -150,15 +150,15 @@ class _PracticeScreenState extends State<PracticeScreen>
                           '${calculationBrain.score} 점',
                         ),
                       ),
-                      Center(
-                        child: Text(
-                          '최고점수: $_maxScore 점',
-                          style: TextStyle(
-                              fontSize: 30.0,
-                              fontFamily: 'ONEMobilePOP',
-                              color: workShopGreyFontColor),
-                        ),
-                      ),
+                      // Center(
+                      //   child: Text(
+                      //     '최고점수: $_maxScore 점',
+                      //     style: TextStyle(
+                      //         fontSize: 30.0,
+                      //         fontFamily: 'ONEMobilePOP',
+                      //         color: workShopGreyFontColor),
+                      //   ),
+                      // ),
                     ],
                   ),
                 ),
