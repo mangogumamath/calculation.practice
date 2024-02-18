@@ -2,8 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:responsive_framework/responsive_breakpoints.dart';
 
-import 'calculationtype_select_screen/calculationtype_select_screen.dart';
 import 'growth_record_screen/growth_record_screen.dart';
+import 'practicetype_select_screen/practicetype_select_screen.dart';
 import 'setting_screen/setting_screen.dart';
 
 ///메인 화면
@@ -18,7 +18,7 @@ class _MainScreenState extends State<MainScreen> {
   int currentPageIndex = 0;
 
   final pages = <Widget>[
-    CalculationTypeSelectScreen(),
+    PracticeTypeSelectScreen(),
     GrowthRecordScreen(),
     SettingScreen(),
   ];

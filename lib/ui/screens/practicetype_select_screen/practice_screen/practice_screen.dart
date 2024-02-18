@@ -2,13 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter_math_fork/flutter_math.dart';
 import 'package:get/get.dart';
 
-class CalculationScreen extends StatelessWidget {
-  CalculationScreen({super.key});
+import '../../../../controller/practice_screen_controller.dart';
+
+class PracticeScreen extends StatelessWidget {
+  const PracticeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
     var questionWidget = Math.tex(
-      'questionText',
+      PracticeScreenController.to.practiceType.code,
       textStyle: const TextStyle(
         fontSize: 45,
       ),

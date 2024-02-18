@@ -2,11 +2,11 @@ import 'package:get/get.dart';
 
 import '../constants/practicetype_constant.dart';
 
-class CalculationScreenController extends GetxController {
-  static CalculationScreenController get to =>
-      Get.find<CalculationScreenController>();
+class PracticeScreenController extends GetxController {
+  static PracticeScreenController get to =>
+      Get.find<PracticeScreenController>();
 
-  CalculationScreenController({required this.practiceType});
+  PracticeScreenController({required this.practiceType});
 
   PracticeType practiceType;
 

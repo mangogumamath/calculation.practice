@@ -65,59 +65,68 @@ enum PracticeType {
 }
 
 class PracticeTypeProvider {
+  //정수와 유리수의 덧셈 뺄셈
   final c1_1_addSub = [
-    PracticeType.sameAdd.displayName,
-    PracticeType.diffAdd.displayName,
-    PracticeType.subtraction.displayName,
-    PracticeType.addSub.displayName,
+    PracticeType.sameAdd,
+    PracticeType.diffAdd,
+    PracticeType.subtraction,
+    PracticeType.addSub,
   ];
 
+  //정수와 유리수의 곱셈 나눗셈
   final c1_2_mulDivMix = [
-    PracticeType.multiplicationTwo.displayName,
-    PracticeType.multiplicationMany.displayName,
-    PracticeType.division.displayName,
-    PracticeType.mix.displayName,
+    PracticeType.multiplicationTwo,
+    PracticeType.multiplicationMany,
+    PracticeType.division,
+    PracticeType.mix,
   ];
 
+  //곱셈과 나눗셈 기호의 생략, 식의 값
   final c2_1_omissionOfSignAndValueOfExpression = [
-    PracticeType.omissionOfMultiplicationSign.displayName,
-    PracticeType.omissionOfDivisionSign.displayName,
-    PracticeType.valueOfExpression.displayName,
+    PracticeType.omissionOfMultiplicationSign,
+    PracticeType.omissionOfDivisionSign,
+    PracticeType.valueOfExpression,
   ];
 
+  //항, 상수항, 계수, 차수
   final c2_2_termsOfPolynomial = [
-    PracticeType.termsOfPolynomial1.displayName,
-    PracticeType.termsOfPolynomial2.displayName,
-    PracticeType.termsOfPolynomial3.displayName,
-    PracticeType.termsOfPolynomial4.displayName,
-    PracticeType.termsOfPolynomial5.displayName,
+    PracticeType.termsOfPolynomial1,
+    PracticeType.termsOfPolynomial2,
+    PracticeType.termsOfPolynomial3,
+    PracticeType.termsOfPolynomial4,
+    PracticeType.termsOfPolynomial5,
   ];
 
+
+  //일차식과 수의 곱셈 나눗셈
   final c2_3_ExpressionMulDivNum = [
-    PracticeType.singleExpressionMulNum.displayName,
-    PracticeType.singleExpressionDivNum.displayName,
-    PracticeType.polyExpressionMulNum.displayName,
-    PracticeType.polyExpressionDivNum.displayName,
+    PracticeType.singleExpressionMulNum,
+    PracticeType.singleExpressionDivNum,
+    PracticeType.polyExpressionMulNum,
+    PracticeType.polyExpressionDivNum,
   ];
 
+  //동류항의 계산, 일차식의 덧셈 뺄셈
   final c2_4_similarTermsAndPolyExpressionAddSub = [
-    PracticeType.similarTerms1.displayName,
-    PracticeType.similarTerms2.displayName,
-    PracticeType.polyExpressionAdd.displayName,
-    PracticeType.polyExpressionSub.displayName,
+    PracticeType.similarTerms1,
+    PracticeType.similarTerms2,
+    PracticeType.polyExpressionAdd,
+    PracticeType.polyExpressionSub,
   ];
 
+  //등식, 방정식, 항등식, 방정식의 해
   final c3_1_EqualSignExpressionAndSolution = [
-    PracticeType.meaningOfEqualSignExpression.displayName,
-    PracticeType.findingEquation.displayName,
-    PracticeType.solutionOfEquation.displayName,
+    PracticeType.meaningOfEqualSignExpression,
+    PracticeType.findingEquation,
+    PracticeType.solutionOfEquation,
   ];
 
+  //등식의 성질, 이항, 일차방정식의 풀이
   final c3_2_solvingOfEquations = [
-    PracticeType.propertiesOfEquations.displayName,
-    PracticeType.movingTerms.displayName,
-    PracticeType.findingFirstEquation.displayName,
-    PracticeType.solvingOfEquations.displayName,
+    PracticeType.propertiesOfEquations,
+    PracticeType.movingTerms,
+    PracticeType.findingFirstEquation,
+    PracticeType.solvingOfEquations,
   ];
 
 

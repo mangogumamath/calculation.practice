@@ -2,6 +2,7 @@ import 'package:get/get.dart';
 import '../binding/binding.dart';
 import '../ui/screens/growth_record_screen/growth_record_screen.dart';
 import '../ui/screens/main_screen.dart';
+import '../ui/screens/practicetype_select_screen/practice_screen/practice_screen.dart';
 
 abstract class Routes {
   static const splashScreen = '/SplashScreen';
@@ -44,6 +45,11 @@ class AppPages {
     GetPage(
       name: Routes.growthRecordScreen,
       page: () => GrowthRecordScreen(),
+      // binding: LeaderBoardScreenBinding(),
+    ),
+    GetPage(
+      name: Routes.practiceScreen,
+      page: () => PracticeScreen(),
       // binding: LeaderBoardScreenBinding(),
     ),
 
